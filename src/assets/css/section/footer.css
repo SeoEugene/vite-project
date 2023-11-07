@@ -1,0 +1,17 @@
+#footer {
+    height: 100vh;
+    background-color: #ffdddd;
+}
+.footer__inner {
+    /* display: flex; */
+}
+.footer__text {
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Abril Fatface', serif;
+    line-height: 0.88;
+    letter-spacing: 0.1vw;
+    z-index: 100;
+    color: #1f1717;
+}

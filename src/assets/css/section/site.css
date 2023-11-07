@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+.site__inner {
+    padding: 16px;
+    display: block;
+    background-color: #1f1717;
+    color: #eee;
+}
+.site__title {
+    position: sticky;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    border-bottom: 0.4vw solid #fff; 
+    font-weight: 900;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', serif;
+    font-size: 3.8rem;
+}
+
+.site__title em {
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-family: 'Questrial', sans-serif;
+}
+.site__wrap {
+    border-bottom: 3px solid #eee;
+
+}
+.site__item {
+    padding-left: 20px;
+    height: 70vh;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    background-color: #1f1717;
+}
+.site__item .num {
+    font-family: 'Abril Fatface', serif;
+    font-size: 4rem;
+}
+.site__item .text {
+    margin-top: 50px;
+}
+.site__item .title {
+    font-size: 1.8rem;
+    margin: 50px 0 20px 0;
+}
+.site__item.s1 {
+    top: 180px;
+}
+.site__item.s2 {
+    top: 200px;
+}
+.site__item.s3 {
+    top: 220px;
+}
+.site__item.s4 {
+    top: 240px;
+}
+.site__item .btn {
+    display: flex;
+}
+.site__item .btn a {
+    display: flex;
+    width: 50%;
+    margin: 0 5px;
+    border: 3px solid #eee;
+    border-radius: 5px;
+    padding: 10px 0;
+    justify-content: center;
+}
+.site__item .info {
+    display: block;
+    margin-top: 50px;
+}
+.site__item .info span {
+    display: flex;
+    font-size: 18px;
+}
