@@ -4,16 +4,17 @@
 .site__inner {
     padding: 16px;
     display: block;
-    background-color: #1f1717;
-    color: #eee;
+    background-color: rgba(246, 255, 253, 1);
+    color: #c72246;
 }
+
 .site__title {
     position: sticky;
     top: 80px;
     left: 0;
     width: 100%;
     height: 85px;
-    border-bottom: 0.4vw solid #fff; 
+    border-bottom: 0.4vw solid #fff;
     font-weight: 900;
     line-height: 1.6;
     text-transform: uppercase;
@@ -26,57 +27,74 @@
     font-weight: 300;
     font-family: 'Questrial', sans-serif;
 }
+
 .site__wrap {
     border-bottom: 3px solid #eee;
 
 }
+
 .site__item {
     padding-left: 20px;
     height: 70vh;
     flex-direction: column;
     position: sticky;
     top: 0;
-    background-color: #1f1717;
+    background-color: #92d4c0;
 }
+
 .site__item .num {
     font-family: 'Abril Fatface', serif;
     font-size: 4rem;
 }
+
 .site__item .text {
     margin-top: 50px;
 }
+
 .site__item .title {
     font-size: 1.8rem;
     margin: 50px 0 20px 0;
 }
+
 .site__item.s1 {
     top: 180px;
+    background-color: #fff;
 }
+
 .site__item.s2 {
     top: 200px;
+    background-color: #fff;
 }
+
 .site__item.s3 {
     top: 220px;
+    background-color: #fff;
 }
+
 .site__item.s4 {
     top: 240px;
+    background-color: #fff;
 }
+
 .site__item .btn {
     display: flex;
 }
+
 .site__item .btn a {
     display: flex;
     width: 50%;
     margin: 0 5px;
-    border: 3px solid #eee;
+    border: 3px solid #c72246;
     border-radius: 5px;
     padding: 10px 0;
     justify-content: center;
 }
+
 .site__item .info {
     display: block;
     margin-top: 50px;
 }
+
 .site__item .info span {
     display: flex;
     font-size: 18px;

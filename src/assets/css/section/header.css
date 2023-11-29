@@ -6,7 +6,7 @@
     top: 0;
     width: 100%;
     z-index: 10000;
-    background-color: rgba(170, 152, 169, 0.6);
+    background-color: rgba(246, 255, 253, 1);
     font-family: 'Questrial', sans-serif;
     color: #1f1717;
     font-size: 1.7rem;
@@ -16,30 +16,33 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.3);
     padding: 1rem;
 }
 
 .header__logo {}
+
 .header__logo a:hover {
-    color: #fff;
+    color: #92d4c0;
 }
+
 .header__nav {}
 
 .header__nav li {
     display: inline;
 }
+
 .header__nav li a {
     display: inline-block;
     padding: 0.3rem 1rem;
     font-weight: 300;
     position: relative;
 }
+
 .header__nav li a::before {
     content: '';
     width: calc(100% - 30px);
     height: 1px;
-    background-color: #fff;
+    background-color: rgba(246, 255, 253, 1);
     position: absolute;
     left: 15px;
     bottom: 5px;
@@ -49,11 +52,13 @@
 
 .header__nav li a:hover::before {
     transform: scaleX(1);
-    color: #fff;
+    color: #92d4c0;
 }
+
 .header__nav li a:hover {
-    color: #fff;
+    color: #92d4c0;
 }
+
 .header__nav__mobile {
     width: 40px;
     height: 40px;
@@ -65,7 +70,7 @@
     display: block;
     width: 40px;
     height: 2px;
-    background-color: #fff;
+    background-color: #92d4c0;
     margin-top: 19px;
     position: relative;
 }
@@ -74,7 +79,7 @@
     content: '';
     width: 40px;
     height: 2px;
-    background-color: #fff;
+    background-color: #92d4c0;
     position: absolute;
     right: 0;
     top: 6px;
@@ -85,7 +90,7 @@
     content: '';
     width: 40px;
     height: 2px;
-    background-color: #fff;
+    background-color: #92d4c0;
     position: absolute;
     left: 0;
     bottom: 6px;
@@ -96,33 +101,40 @@
     .header__nav {
         display: none;
     }
+
     .header__nav.show {
         display: block;
     }
+
     .header__nav.show ul {
         display: block;
         position: absolute;
         top: 68px;
         right: 0;
-        background-color: #AA98A9;
+        background-color: rgba(246, 255, 253, 0.6);
         z-index: 10000;
         min-width: 159px;
         padding: 20px 0;
     }
+
     .header__nav.show li {
         display: block;
         text-align: right;
     }
+
     .header__nav.show li a {
         display: inline-block;
         padding: 10px;
     }
-    .header__nav.show + .header__nav__mobile span::before {
+
+    .header__nav.show+.header__nav__mobile span::before {
         width: 20px;
     }
-    .header__nav.show + .header__nav__mobile span::after {
+
+    .header__nav.show+.header__nav__mobile span::after {
         width: 20px;
     }
+
     .header__nav__mobile {
         display: block;
     }

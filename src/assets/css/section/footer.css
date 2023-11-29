@@ -2,9 +2,17 @@
     height: 100vh;
     background-color: #ffdddd;
 }
+
 .footer__inner {
-    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1vw;
 }
+
 .footer__text {
     font-size: 9vw;
     text-transform: uppercase;
@@ -14,4 +22,68 @@
     letter-spacing: 0.1vw;
     z-index: 100;
     color: #1f1717;
+}
+
+.footer__info {
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    height: 650px;
+}
+
+.footer__info .left {
+    border: 1px solid orange;
+    margin: 10px;
+
+}
+
+.footer__info .left .title {
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Abril Fatface', serif;
+}
+
+.footer__info .left .desc {}
+
+.footer__info .right {
+    margin: 10px;
+
+}
+
+.footer__info .right ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer__info .right h3 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Abril Fatface', serif;
+}
+
+.footer__info .right li {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.footer__info .right li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    padding: 20px;
+}
+
+.footer__right {
+    width: 100%;
+    text-align: center;
 }

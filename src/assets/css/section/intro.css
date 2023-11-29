@@ -2,7 +2,7 @@
 
 #intro {
     height: 100vh;
-    background-color: #ffdddd;
+    background-color: #92d4c0;
 }
 
 .intro__inner {
@@ -23,7 +23,7 @@
     line-height: 0.88;
     letter-spacing: 0.1vw;
     z-index: 100;
-    color: #1f1717;
+    color: #c72246;
 }
 
 .intro__lines {
@@ -36,7 +36,7 @@
     display: block;
     width: 100%;
     height: 1px;
-    background-color: #1f1717;
+    background-color: #c72246;
     margin-bottom: 0.5vw;
 }
 
@@ -67,9 +67,11 @@
 .intro__lines .line:nth-child(7) {
     height: 7px;
 }
+
 .intro__lines.bottom {
     display: none;
 }
+
 .intro__lines.bottom .line:nth-child(1) {
     height: 7px;
 }
@@ -106,7 +108,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1f1717;
+    background-color: #c72246;
     position: relative;
 }
 
@@ -137,33 +139,40 @@
     text-transform: uppercase;
     font-weight: 400;
     font-family: 'Nanum Myeongjo', serif;
-    color: #ffdddd;
+    color: #92d4c0;
     text-decoration: underline;
 }
-@media (max-width: 1080px){
+
+@media (max-width: 1080px) {
     .intro__text .img {
         width: 150px;
         height: 15vh;
     }
 }
-@media (max-width: 800px){
+
+@media (max-width: 800px) {
     .intro__inner {
         align-items: center;
         justify-content: center;
     }
+
     .intro__lines.bottom {
         display: block;
     }
+
     .intro__text .text {
         font-size: 30px;
     }
+
     .intro__text .text:nth-child(2) {
         /* filter: brightness(); */
     }
+
     .intro__text img {
         width: 300px;
         height: 300px;
     }
+
     .intro__lines.bottom {
         display: block;
     }
