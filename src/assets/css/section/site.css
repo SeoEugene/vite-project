@@ -4,7 +4,7 @@
 .site__inner {
     padding: 16px;
     display: block;
-    background-color: rgba(246, 255, 253, 1);
+    background-color: #92d4c0;
     color: #c72246;
 }
 
@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     height: 85px;
-    border-bottom: 0.4vw solid #fff;
+    border-bottom: 0.4vw solid #c72246;
     font-weight: 900;
     line-height: 1.6;
     text-transform: uppercase;
@@ -58,22 +58,22 @@
 
 .site__item.s1 {
     top: 180px;
-    background-color: #fff;
+    background-color: #A9E0DA;
 }
 
 .site__item.s2 {
     top: 200px;
-    background-color: #fff;
+    background-color: #E9E0D8;
 }
 
 .site__item.s3 {
     top: 220px;
-    background-color: #fff;
+    background-color: #A9E0DA;
 }
 
 .site__item.s4 {
     top: 240px;
-    background-color: #fff;
+    background-color: #E9E0D8;
 }
 
 .site__item .btn {

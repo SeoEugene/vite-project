@@ -1,10 +1,11 @@
 #contact {
     height: 100vh;
-    background-color: #817C91;
+    background-color: #92d4c0;
 
 }
-.contact__inner {
-}
+
+.contact__inner {}
+
 .contact__title {
     font-size: 9vw;
     text-transform: uppercase;
@@ -13,8 +14,9 @@
     line-height: 0.88;
     letter-spacing: 0.1vw;
     z-index: 100;
-    color: #1f1717;
+    color: #c72246;
 }
+
 .contact__line {
     display: block;
     width: 100%;
@@ -26,7 +28,7 @@
     display: block;
     width: 100%;
     height: 1px;
-    background-color: #1f1717;
+    background-color: #c72246;
     margin-bottom: 0.5vw;
 }
 
@@ -57,9 +59,11 @@
 .contact__line .line:nth-child(7) {
     height: 7px;
 }
+
 .contact__line.bottom {
     /* display: none; */
 }
+
 .contact__line.bottom .line:nth-child(1) {
     height: 7px;
 }
@@ -96,48 +100,54 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1f1717;
+    background-color: #c72246;
     position: relative;
 }
+
 .contact__text .text {
     display: flex;
     /* border: 1px solid orange; */
     width: 90%;
 }
 
-.contact__text .text > div {
+.contact__text .text>div {
     width: 20%;
     height: 200px;
     color: #fff;
     font-size: 24px;
     padding: 20px;
     word-wrap: break-word
-
 }
+
 .contact__text .text .sns {
     /* border: 1px solid red; */
 }
-.contact__text .text > div:nth-child(1) .sns {
-    color: #fff700;
-    border-bottom: 2px solid #fff700;
+
+.contact__text .text>div:nth-child(1) .sns {
+    color: #92d4c0;
+    border-bottom: 2px solid #92d4c0;
 }
-.contact__text .text > div:nth-child(2) .sns {
-    color: #b0e0e6;
-    border-bottom: 2px solid #b0e0e6;
+
+.contact__text .text>div:nth-child(2) .sns {
+    color: #92d4c0;
+    border-bottom: 2px solid #92d4c0;
 }
-.contact__text .text > div:nth-child(3) .sns {
-    color: #e0115f;
-    border-bottom: 2px solid #e0115f;
+
+.contact__text .text>div:nth-child(3) .sns {
+    color: #92d4c0;
+    border-bottom: 2px solid #92d4c0;
 }
-.contact__text .text > div:nth-child(4) .sns {
-    color: #7638fa;
-    border-bottom: 2px solid #7638fa;
+
+.contact__text .text>div:nth-child(4) .sns {
+    color: #92d4c0;
+    border-bottom: 2px solid #92d4c0;
 }
-.contact__text .text > div:nth-child(5) .sns {
-    color: #8db600;
-    border-bottom: 2px solid #8db600;
+
+.contact__text .text>div:nth-child(5) .sns {
+    color: #92d4c0;
+    border-bottom: 2px solid #92d4c0;
 }
+
 .contact__text .text a {
     font-size: 15px;
 }
-

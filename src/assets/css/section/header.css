@@ -6,9 +6,9 @@
     top: 0;
     width: 100%;
     z-index: 10000;
-    background-color: rgba(246, 255, 253, 1);
+    background-color: #92d4c0;
     font-family: 'Questrial', sans-serif;
-    color: #1f1717;
+    color: #c72246;
     font-size: 1.7rem;
 }
 

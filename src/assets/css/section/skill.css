@@ -41,7 +41,8 @@
     width: 50%;
     font-family: 'Questrial', sans-serif;
     color: #c72246;
-    background-color: rgba(246, 255, 253, 1);
+    /* background-color: rgba(246, 255, 253, 1); */
+    background-color: #92d4c0;
 }
 
 .skill__desc>div {

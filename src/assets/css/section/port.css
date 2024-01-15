@@ -2,45 +2,51 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: #817C91;
-
+    background-color: #92d4c0;
+    color: #c72246;
 }
+
 .port__inner {
     padding: 16px;
 }
+
 .port__title {
     width: 100%;
     height: 85px;
-    border-bottom: 0.4vw solid #000; 
+    border-bottom: 0.4vw solid #c72246;
     font-weight: 900;
     line-height: 1.6;
     text-transform: uppercase;
     font-family: 'Abril Fatface', serif;
     font-size: 3.8rem;
-    color: #000;
 }
+
 .port__title em {
     font-size: 0.8rem;
     font-weight: 400;
-    color: #000;
 }
+
 .port__wrap {
     display: flex;
     flex-wrap: wrap;
     width: 7000px;
     margin-top: 50px;
 }
+
 .port__item {
     width: 500px;
     height: 70vh;
     margin-right: 25px;
 }
+
 .port__item:nth-child(odd) {
-    background-color: #576176;
+    background-color: #F9D5C9;
 }
+
 .port__item:nth-child(even) {
-    background-color: #AA98A9;
+    background-color: #A9E0DA;
 }
+
 .port__item .num {
     display: flex;
     width: 100px;
@@ -51,30 +57,43 @@
     margin-left: 30px;
     margin-top: 20px;
 }
+
 .port__item img {
     width: calc(100% - 60px);
     height: 45%;
     margin: 15px 30px;
 }
+
 .port__item .title {
     margin: 0 auto;
     width: 80%;
     font-size: 24px;
     text-align: center;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #c72246;
     padding-bottom: 8px;
     position: relative;
 }
+
 .port__item .title::before {
     content: '';
     width: 100%;
     height: 2px;
-    background-color: #000;
+    background-color: #c72246;
     position: absolute;
     left: 0;
     bottom: -6px;
 }
-.port__item .desc {
-    margin-top: 20px;
-    text-align: center;
+
+.port__item .btn {
+    display: flex;
+}
+
+.port__item .btn a {
+    display: flex;
+    width: 50%;
+    margin: 0 5px;
+    border: 3px solid #c72246;
+    border-radius: 5px;
+    padding: 10px 0;
+    justify-content: center;
 }
